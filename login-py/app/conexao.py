@@ -3,11 +3,11 @@ import mysql.connector
 def criar_conexao():
     try:
         conexao = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="",  
-            database="lista_tarefa",  
-            port="3316" 
+            host="localhost", 
+            user="root", #usuario
+            password="",  #senha
+            database="lista_tarefa",  #database
+            port="3316" #porta
         )
         if conexao.is_connected():
             print("conexao realizada")
