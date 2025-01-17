@@ -24,7 +24,7 @@ def cadastrar():
             cursor.close()
             conexao.close()
 
-            return redirect(url_for('index'))
+            return '<script>alert("Cadastro realizado!");window.location.href = "/"; </script>'
         else:
-            return "Erro na conexão"
+            return '<script>alert("Erro!"); window.location.href = "/cadastrar";</script>'
     return render_template('cadastrar.html')
