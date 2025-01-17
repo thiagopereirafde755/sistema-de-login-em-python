@@ -20,9 +20,11 @@ def login():
 
             if usuario:
                 session['usuario_id'] = usuario[0] 
-                return redirect(url_for('inicio.inicio')) 
+               
+                return '<script>alert("Acesso Permitido!");window.location.href = "/inicio"; </script>'
             else:
-                return "Email ou senha inválidos"  
+                 return '<script>alert("Email ou senha incorretos!"); window.location.href = "/";</script>'
+ 
 
             cursor.close()
             conexao.close()
