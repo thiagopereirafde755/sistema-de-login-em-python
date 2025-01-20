@@ -6,7 +6,7 @@ def criar_conexao():
             host="localhost",
             user="root",
             password="",  
-            database="lista_tarefa",  
+            database="login",  
             port="3316" 
         )
         if conexao.is_connected():
