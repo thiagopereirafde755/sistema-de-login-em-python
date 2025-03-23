@@ -15,7 +15,9 @@ Para instalar o Flask, execute o seguinte comando no terminal:
 pip install Flask
 ```
 
-Para instalar o mysql.connector, execute o seguinte comando no terminal:
+## Mysql.connector 
+
+O mysql-connector-python é uma biblioteca para conectar seu aplicativo Python com um banco de dados MySQL. Para instalar, execute o seguinte comando no terminal:
 
 ```bash
 pip install mysql-connector-python
