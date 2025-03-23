@@ -13,3 +13,8 @@ Para instalar o Flask, execute o seguinte comando no terminal:
 
 ```bash
 pip install Flask
+
+Para instalar o mysql.connector, execute o seguinte comando no terminal:
+
+```bash
+pip install mysql-connector-python
